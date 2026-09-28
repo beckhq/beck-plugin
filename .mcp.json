@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "beck": {
+      "command": "npx",
+      "args": ["-y", "@becklabs/beck-mcp-server@latest"],
+      "env": {
+        "BECK_API_TOKEN": "${user_config.api_token}",
+        "BECK_API_URL": "${BECK_API_URL:-https://beck.bot}",
+        "BECK_PROJECT_DIR": "${CLAUDE_PROJECT_DIR}"
+      }
+    }
+  }
+}

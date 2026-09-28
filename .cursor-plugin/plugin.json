@@ -1,13 +1,13 @@
 {
   "name": "beck",
   "displayName": "Beck",
-  "description": "Project management for AI assistants — tasks, backlog, icebox, PRDs, epics, Plan it, review, and multi-bot automation. Cursor plugin with MCP so agents manage the same stories humans do.",
-  "version": "1.1.1",
+  "description": "Record the plan your coding agent makes as epics and tasks in Beck, resume it across sessions, ask decisions with a default, and review on one backlog with your team. Plan it for teammates who plan in documents.",
+  "version": "1.6.0",
   "author": {
     "name": "Beck"
   },
   "homepage": "https://beck.bot/features/ai-agents",
-  "repository": "https://github.com/beckhq/beck-cursor-plugin",
+  "repository": "https://github.com/beckhq/beck-plugin",
   "license": "MIT",
   "keywords": [
     "project-management",
@@ -17,12 +17,12 @@
     "backlog",
     "icebox",
     "prd",
-    "product-requirements",
     "epic",
     "user-stories",
-    "story-points",
+    "plan-mode",
+    "agent-plans",
+    "decisions",
     "planning",
-    "spec",
     "review",
     "automation",
     "ai-agents",
@@ -48,6 +48,8 @@
         "default": "https://beck.bot"
       }
     },
-    "required": ["BECK_API_TOKEN"]
+    "required": [
+      "BECK_API_TOKEN"
+    ]
   }
 }

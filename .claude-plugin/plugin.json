@@ -1,0 +1,20 @@
+{
+  "name": "beck",
+  "displayName": "Beck",
+  "version": "1.6.0",
+  "description": "Record the plan your agent makes as epics and tasks in Beck, pick work back up after compaction, and let humans follow along and review.",
+  "author": {
+    "name": "Beck"
+  },
+  "homepage": "https://beck.bot",
+  "license": "MIT",
+  "keywords": ["project-management", "planning", "tasks", "backlog", "epics", "review", "mcp", "beck"],
+  "userConfig": {
+    "api_token": {
+      "type": "string",
+      "title": "Beck API token",
+      "description": "Create one at https://beck.bot/settings/tokens. Name it after this agent, for example Claude Code.",
+      "sensitive": true
+    }
+  }
+}
